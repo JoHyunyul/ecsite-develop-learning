@@ -37,4 +37,28 @@ public class Cart {
 		this.accountId = accountId;
 		this.productId = productId;
 	}
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public Account getAccountId() {
+		return accountId;
+	}
+
+	public void setAccountId(Account accountId) {
+		this.accountId = accountId;
+	}
+
+	public Product getProductId() {
+		return productId;
+	}
+
+	public void setProductId(Product productId) {
+		this.productId = productId;
+	}
 }
